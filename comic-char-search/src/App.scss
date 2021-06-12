@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;;
+}
+
+.app__title{
+    font-size: 3.73rem;
+    margin-bottom: 30px;
+}
+
+.rbt{
+    &-input-main{
+        width: 80%;
+        max-width: 800px;
+        height: 50px;
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+    &-menu.dropdown-menu.show{
+        overflow-y: scroll;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.dropdown-item{
+    width: 100%;
+    display: block;
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    text-decoration: none;
+    border-bottom: 1.5px solid rgb(83, 82, 82);
+    span{
+        vertical-align:top;
+    }
+
+}
+
+
